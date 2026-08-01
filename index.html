@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debarpita- Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Debarpita's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="home">
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi! My Name is <span class="purple">Debarpita Ghosh</span>
+          <div>And I'm diving into Web Development :)<br> I am
+            <span id="element"></span>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="pfp4.png" alt="">
+        </div>
+      </section>
+      <hr>
+    </div>
+    <div id="about">
+      <section class="secondSection">
+        <p class="Aboutme-hr">About Me</p>
+        <p class="Aboutme"> Hello Everyone! I am Debarpita Ghosh, a passionate web developer with a love for creating
+          beautiful and
+          functional websites. I have experience in HTML, CSS, JavaScript, and I'm exploring different frameworks like
+          React, Node.js and Express.I am also studying in college and currently I'm in second year.I am proficient in
+          programming languages such as C, C++, Java, and Python. I enjoy learning new technologies and continuously
+          improving my skills. In my free time, I like to explore new places, try out different cuisines, and listen to
+          music. Let's connect and create something amazing together!
+        </p>
+        <hr>
+      </section>
+    </div>
+    <div id="projects">
+      <section class="thirdSection">
+        <p class="Aboutme-hr">Projects</p>
+
+        <div class="project-container">
+
+          <a href="https://spotify-clone-one-neon.vercel.app/" target="_blank" class="project-link">
+            <div class="project-card">
+              <img src="project1.png" alt="Spotify Clone">
+              <h3>Spotify Clone</h3>
+              <p>A Spotify clone made with HTML, CSS, and basic vanilla JavaScript.</p>
+            </div>
+          </a>
+
+          <a href="https://tic-tac-toe-alpha-bay-23.vercel.app/" target="_blank" class="project-link">
+            <div class="project-card">
+              <img src="project2.png" alt="Tic-Tac-Toe Game">
+              <h3>Tic-Tac-Toe Game</h3>
+              <p>A simple Tic-Tac-Toe game made with HTML, CSS, and vanilla JavaScript.</p>
+            </div>
+          </a>
+
+          <a href="https://plan-mania-pc2t.vercel.app/" target="_blank" class="project-link">
+            <div class="project-card">
+              <img src="project3.png" alt="Journaling Website">
+              <h3>Journaling Website</h3>
+              <p>A cute full-stack journaling website made using prompt engineering and AI.</p>
+            </div>
+          </a>
+
+          <a href="https://pinkpetalsjournal.netlify.app/" target="_blank" class="project-link">
+            <div class="project-card">
+              <img src="project4.png" alt="AI Journaling App">
+              <h3>AI Journaling App</h3>
+              <p>Another cutesy journaling website made with React and Node.js using prompt engineering and AI.</p>
+            </div>
+          </a>
+
+          <a href="https://your-travel-planner-link.com" target="_blank" class="project-link">
+            <div class="project-card">
+              <img src="project5.png" alt="Travel Planner">
+              <h3>Travel Planner</h3>
+              <p>A simple practice travel website made with HTML, CSS, and vanilla JavaScript for educational purposes
+                and UI practice.</p>
+            </div>
+          </a>
+
+        </div>
+      </section>
+      <hr>
+    </div>
+
+    <div id="contact">
+      <footer class="footer">
+        <h3>Connect with Me</h3>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/iamhattimatimtim/" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="https://www.facebook.com/debarpita.ghosh.528146" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/debarpita-ghosh-54a53539a/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://x.com/debarpitaaaaaa" target="_blank" aria-label="X">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+
+          <a href="mailto:debarpitaghosh08@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+
+        <p>&copy; 2026 Debarpita Ghosh. All Rights Reserved.</p>
+      </footer>
+    </div>
+    </div>
+  </main>
+  <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['a Student', 'a Coder', 'a Passionate Developer', 'a Foodie:))', 'a Musician', 'just a Girl :D'],
+      typeSpeed: 100,
+    });
+  </script>
+</body>
+<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+</body>
+
+</html>

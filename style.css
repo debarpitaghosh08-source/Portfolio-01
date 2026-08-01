@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S+Guides:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Rubik+Glitch&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&family=Yuyu&display=swap');
+
+/*Poppins*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(48, 3, 33);
+  color: white;
+  font-family: Poppins;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(32, 1, 22);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(124, 22, 112);
+  font-size: 1.04rem;
+
+}
+
+.left {
+  font-size: 2.0rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+}
+
+.firstSection>div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+  margin-top: 10%;
+}
+
+
+.rightSection img {
+  width: 120%;
+  height: 115%;
+  opacity: 0.6;
+  border-radius: 80px;
+  margin: 15px;
+}
+
+.purple {
+  color: rgb(186, 64, 147);
+}
+
+#element {
+  color: rgb(186, 64, 147);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  font-size: 1.7em;
+  font-family: Poppins;
+  color: rgb(237, 172, 216);
+  font-weight: 400;
+}
+
+#home hr {
+  border: 1px solid rgb(186, 64, 147);
+  margin: 20px 0;
+  width: 52vw;
+  margin: 50px;
+}
+
+.gray {
+  color: rgb(98, 94, 97);
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.Aboutme {
+  font-size: 1.4rem;
+  color: rgb(209, 161, 194);
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.Aboutme-hr {
+  font-size: 3.0rem;
+  color: rgb(186, 64, 147);
+  margin-top: 50px;
+  font-family: Poppins;
+}
+
+#about hr {
+  margin: 50px -62px;
+  border: 1px solid rgb(186, 64, 147);
+}
+
+/* Projects Section */
+.thirdSection {
+  width: 90%;
+  margin: 80px auto;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* Link Wrapper */
+.project-link {
+  flex: 0 0 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Card */
+.project-card {
+  background: #5f224b;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.project-link:hover .project-card {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.45);
+}
+
+/* Image */
+.project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Heading */
+.project-card h3 {
+  color: #e1aecc;
+  margin: 15px;
+  font-size: 1.4rem;
+}
+
+/* Description */
+.project-card p {
+  color: #e580b4;
+  margin: 0;
+  padding: 0 15px 20px;
+  line-height: 1.6;
+}
+.footer {
+    margin-top: 80px;
+    padding: 40px 20px;
+    background: #111;
+    text-align: center;
+    color: white;
+}
+
+.footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: rgb(186, 64, 147);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #1d1d1d;
+    color: rgb(240, 201, 225);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #c10ba5; 
+    transform: translateY(-5px) scale(1.1);
+}
+
+.footer p {
+    color: #f68bd7;
+    font-size: 0.9rem;
+}
+#projects hr {
+  margin: 50px 100px;
+  border: 1px solid rgb(186, 64, 147);
+}
+

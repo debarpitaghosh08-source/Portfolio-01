@@ -1,0 +1,217 @@
+
+@media screen and (max-width: 992px) {
+
+  nav {
+    padding: 0 20px;
+  }
+
+  nav ul li {
+    margin: 0 12px;
+  }
+
+  .left {
+    font-size: 1.6rem;
+  }
+
+  .firstSection {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .firstSection>div {
+    width: 85%;
+  }
+
+  .leftSection {
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+
+  .rightSection img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+
+  .secondSection {
+    max-width: 90%;
+    font-size: 1.4rem;
+  }
+
+  #home hr,
+  #about hr,
+  #projects hr {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .Aboutme {
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+  }
+
+  .Aboutme-hr {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .project-link {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  .left {
+    font-size: 1.8rem;
+  }
+
+  .firstSection {
+    margin: 30px 0;
+  }
+
+  .firstSection>div {
+    width: 95%;
+  }
+
+  .leftSection {
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+  .rightSection img {
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .secondSection {
+    font-size: 1.2rem;
+  }
+
+  .gray {
+    font-size: 1rem;
+  }
+
+  .Aboutme {
+    font-size: 1.1rem;
+  }
+
+  .Aboutme-hr {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .project-container {
+    gap: 20px;
+  }
+
+  .project-link {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .project-card img {
+    height: 220px;
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    gap: 18px;
+  }
+
+  .social-links a {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+}
+
+/*Phones*/
+@media screen and (max-width: 480px) {
+
+  .left {
+    font-size: 1.5rem;
+  }
+
+  .leftSection {
+    font-size: 1.4rem;
+  }
+
+  .rightSection img {
+    width: 100%;
+  }
+
+  .Aboutme-hr {
+    font-size: 1.8rem;
+  }
+
+  .Aboutme {
+    font-size: 1rem;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+
+  .social-links a {
+    width: 42px;
+    height: 42px;
+    font-size: 1.1rem;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
