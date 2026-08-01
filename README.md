@@ -3,6 +3,7 @@
 A modern, responsive, and interactive personal portfolio website showcasing my skills, projects, and journey as a Computer Science Engineering student. This portfolio is designed to highlight my technical abilities, creative projects, and provide an easy way to connect with me.
 
 ## 📸 Preview
+<img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/d089e513-82ed-4a4d-8488-8bf703350933" />
 
 
 
