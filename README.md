@@ -1,6 +1,10 @@
 # 🌐 Personal Portfolio
 
-A modern, responsive, and interactive personal portfolio website showcasing my skills, projects, and journey as a Computer Science Engineering student. This portfolio is designed to highlight my technical abilities,creative projects, and provide an easy way to connect with me.
+A modern, responsive, and interactive personal portfolio website showcasing my skills, projects, and journey as a Computer Science Engineering student. This portfolio is designed to highlight my technical abilities, creative projects, and provide an easy way to connect with me.
+
+## 📸 Preview
+
+
 
 ## 🔗 Live Demo
 
@@ -15,7 +19,6 @@ A modern, responsive, and interactive personal portfolio website showcasing my s
 - 👩‍💻 About Me section
 - 🚀 Featured Projects
 - 🛠️ Technical Skills
-- 📄 Resume Download
 - 📬 Contact Section
 - ⚡ Smooth animations and transitions
 - 🌙 Clean and minimal design
@@ -27,10 +30,10 @@ A modern, responsive, and interactive personal portfolio website showcasing my s
 ### Frontend
 - HTML5
 - CSS3
-- JavaScript
 
 ### Deployment
 - Vercel
+- Github
 
 ---
 
@@ -50,26 +53,20 @@ A modern, responsive, and interactive personal portfolio website showcasing my s
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/debarpitaghosh08/your-repository.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd your-repository
+cd Portfolio-01
 ```
 
 Open the project using your preferred code editor and launch `index.html` in your browser.
 
 ---
 
-## 📸 Preview
 
-![Portfolio Preview](preview.png)
-
-> Replace `preview.png` with a screenshot of your portfolio homepage.
-
----
 
 ## 🎯 Purpose
 
@@ -98,8 +95,8 @@ This portfolio serves as a central place to showcase:
 ## 🤝 Connect With Me
 
 - GitHub: https://github.com/debarpitaghosh08-source
-- LinkedIn: *(Add your LinkedIn profile here)*
-- Email: *(Add your email here)*
+- LinkedIn: *(https://www.linkedin.com/in/debarpita-ghosh-54a53539a/)*
+- Email: *(debarpitaghosh08@gmail.com)*
 
 ---
 
